@@ -22,3 +22,7 @@
 #### 🖼️ Output Screenshot
 ![Dictionary : Output](/images/dict.png)
 
+### OOPs
+#### 🖼️ Output Screenshot
+![OOPs : Output](/images/OOPs.png)
+
