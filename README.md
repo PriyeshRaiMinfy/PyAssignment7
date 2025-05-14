@@ -5,20 +5,20 @@
 
 ### Function
 #### 🖼️ Output Screenshot
-![Function : Output](images/list)
+![Function : Output](images/function.png)
 
 
 ### List
 #### 🖼️ Output Screenshot
-![List : Output](output.png)
+![List : Output](images/list.png)
 
 
 ### Tuples
 #### 🖼️ Output Screenshot
-![Tuple : Output](output.png)
+![Tuple : Output](/images/Tuple.png)
 
 
 ### Dictionary
 #### 🖼️ Output Screenshot
-![Dictionary : Output](output.png)
+![Dictionary : Output](/images/dict.png)
 
