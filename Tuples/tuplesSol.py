@@ -84,17 +84,19 @@ def flatten_tuple(t):
 if __name__ == "__main__":
 
 #-------------- easy -----------------
+    print("Easy\n")
 #Q1
     print(swap_pairs((1, 2, 3, 4)))       
     print(swap_pairs((1, 2, 3)))          
 #q2
-    print("\nGet Stats:")
+    print("Get Stats:")
     print(get_stats([1, 2, 3, 4, 5]))     
 
 
 
 
 #-------------- medium -----------------
+    print("\nMedium\n")
 #q1
     alice = Student("Alice", 20, (85, 90, 95))
     bob = Student("Bob", 19, (70, 80, 90))
@@ -109,6 +111,7 @@ if __name__ == "__main__":
 
 
 #-------------- hard -----------------
+    print("\nHard\n")
 #Q1
     employees = [
         ("Alice", "Engineering", 80000),

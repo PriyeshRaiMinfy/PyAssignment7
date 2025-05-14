@@ -29,9 +29,9 @@ def merge_sorted_lists (l1, l2):
 #Q1
 def generate_matrix (rows, col):
     result = []
-    for i in rows:
+    for i in range(rows):
         row = []
-        for j in col:
+        for j in range(col):
             row.append(i*j)
         result.append(row)
     return result
@@ -82,11 +82,13 @@ def rotate_list(lst, k):
 
 if __name__ == "__main__":
     #easy
+    print("easy\n\n")
     print(filter_even_numbers([1, 2, 3, 4, 5, 6]))
     print(filter_even_numbers([1, 3, 5]))
 
     print(merge_sorted_lists([1,10,12,34,50],[2,7,11,45,50]))
     #medium
+    print("medium\n\n")
     print(generate_matrix(3,3))
     print(generate_matrix(4,3))
     print(transpose_matrix([[1,2,3],
@@ -94,5 +96,6 @@ if __name__ == "__main__":
                             [7,8,9]]
                             ))
     #hard
-    print(find_peak()[1,2,3,4,3,5,6,7,6,5,7,8,9,10])
-    print(rotate_list([]))
+    print("hard\n\n")
+    print(find_peak([1,2,3,4,3,5,6,7,6,5,7,8,9,10]))
+    print(rotate_list([2,1,3,4,3,2,6,4,5],5))

@@ -28,7 +28,7 @@ def add_contact(contacts, name, **details):
 #   Testcase - OUTPUT
 #-------------------------------
 if __name__ == "__main__":
-    
+    print("\nEasy\n")
     # Q1
     print(invert_dictionary({"a": 1, "b": 2, "c": 3}))  
 
@@ -37,6 +37,7 @@ if __name__ == "__main__":
     dict2 = {"b": 3, "c": 4}
     print(merge_dictionaries(dict1, dict2))  
 
+    print("\nMedium\n")
     # Q1
     text = "the quick brown fox jumps over the lazy dog"
     print(word_frequencies(text))  
@@ -47,3 +48,5 @@ if __name__ == "__main__":
     add_contact(contacts, "Bob", phone="987-654-3210")
     add_contact(contacts, "Alice", address="123 Main St")
     print(contacts)
+
+    print("\nHard\n")
